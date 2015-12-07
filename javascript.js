@@ -118,7 +118,7 @@ $(document).ready(function(){
 	var colour="#009933"; // Highlight the slot with this colour
 	var colourArray=["#009933","#ff6600","#cc00cc","#0066ff","#9933ff"] // List of colours to choose from.
 	var light_grey = "#b2b2b2"
-	var dark_grey = "#4c4c4c"
+	var dark_grey = "#7c7c7c"
 	courseSelected=[]; // List of courses selected till now.
 	
 

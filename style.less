@@ -5,23 +5,54 @@
 @orange: #ff6600;
 @purple: #cc33ff;
 @blue: #6666ff;
-@dark_grey: #4c4c4c;
+@dark_grey: #7c7c7c;
 @light_blue: #66ccff;
 @light_grey: #5e5e5e;
 
-#outside{
-	font-size: 12px;
+#outside, .time, .days, .slot{
+	font-size: 14px;
 }
 
+#outside {
+	border-spacing: 0px 5px;
+}
+	
+.courseDescription{
+	margin-top: 20px;
+	margin-left: -10px;
+	border-spacing: 10px;
+}
+
+.stream {
+	padding: 10px;
+	background-color: @grey;
+}
+
+.sub-stream{
+	padding: 10px;
+	font-weight: bold;
+}
+
+.time, .days, .stream {
+	font-weight:bold;
+	border: 1px @grey solid;
+}
+
+
 .time{
+	padding: 10px;
+	width: 10px;
 	display:table-cell;
 }
 .days{
+	padding: 10px;
 	display:table-cell;
+	text-align: center;
 }
 .slot{
 	display:table-cell;
-	width: 75px;
+	width: 30px;
+	padding: 10px;
 }
 .monday_first_slot{
 	background-color: @grey;
